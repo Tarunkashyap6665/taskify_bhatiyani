@@ -1,6 +1,6 @@
 import type { Task, Analytics } from "../types";
 
-const API_URL = "http://localhost:8000";
+const API_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
 
 export const fetchTasks = async (): Promise<Task[]> => {
   const response = await fetch(`${API_URL}/tasks`);
