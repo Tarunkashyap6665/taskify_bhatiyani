@@ -1,0 +1,69 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Complete Taskify project",
+      "description": "Finish implementing all features of the Taskify app",
+      "status": "pending",
+      "priority": "high",
+      "due_date": "2023-08-15",
+      "created_at": "2023-08-01T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Learn FastAPI",
+      "description": "Study FastAPI documentation and tutorials",
+      "status": "completed",
+      "priority": "medium",
+      "due_date": "2023-07-30",
+      "created_at": "2023-07-20T14:30:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Set up Chart.js",
+      "description": "Implement analytics dashboard with Chart.js",
+      "status": "pending",
+      "priority": "medium",
+      "due_date": "2023-08-10",
+      "created_at": "2023-08-02T09:15:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Create responsive UI",
+      "description": "Ensure the app works well on mobile devices",
+      "status": "pending",
+      "priority": "high",
+      "due_date": "2023-08-12",
+      "created_at": "2023-08-03T11:45:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Write documentation",
+      "description": "Document code and create README.md",
+      "status": "pending",
+      "priority": "low",
+      "due_date": "2023-08-18",
+      "created_at": "2023-08-04T16:20:00Z"
+    }
+  ],
+  "analytics": {
+    "daily": [
+      { "date": "2023-08-01", "completed": 2, "added": 3 },
+      { "date": "2023-08-02", "completed": 1, "added": 2 },
+      { "date": "2023-08-03", "completed": 3, "added": 1 },
+      { "date": "2023-08-04", "completed": 2, "added": 4 },
+      { "date": "2023-08-05", "completed": 4, "added": 2 },
+      { "date": "2023-08-06", "completed": 1, "added": 1 },
+      { "date": "2023-08-07", "completed": 3, "added": 3 }
+    ],
+    "status": {
+      "completed": 16,
+      "pending": 12
+    },
+    "priority": {
+      "high": 8,
+      "medium": 14,
+      "low": 6
+    }
+  }
+}
